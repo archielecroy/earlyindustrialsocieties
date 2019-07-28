@@ -233,7 +233,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-	<apparelColor>(136,136,136)</apparelColor>
+	<apparelColor>(180,180,180)</apparelColor>
 	</PawnKindDef>   
 	<PawnKindDef ParentName="D9SlaverCombatBase">
 		<defName>D9SlaverRegular</defName>

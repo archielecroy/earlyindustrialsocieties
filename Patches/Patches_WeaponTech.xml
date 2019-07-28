@@ -49,19 +49,19 @@
 	  </value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-	  <xpath>*/ThingDef[defName = "Gun_BreechLoadingSniper" or ThingDef = "Gun_LeverActionSniper"]/weaponTags</xpath>
+	  <xpath>*/ThingDef[defName = "Gun_BreechLoadingSniper" or defName = "Gun_LeverActionSniper"]/weaponTags</xpath>
 	  <value>
 		<li>MartiniS</li>
 	  </value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-	  <xpath>*/ThingDef[defName = "Gun_LeverActionRifle" or ThingDef = "Gun_LargeLeverActionRifle"]/weaponTags</xpath>
+	  <xpath>*/ThingDef[defName = "Gun_LeverActionRifle" or defName = "Gun_LargeLeverActionRifle" or defName="VintageLeverActionRifle"]/weaponTags</xpath>
 	  <value>
 		<li>LeverGun</li>
 	  </value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-	  <xpath>*/ThingDef[defName = "Gun_Revolver" or ThingDef = "Gun_LargeRevolver"]/weaponTags</xpath>
+	  <xpath>*/ThingDef[defName = "Gun_Revolver" or defName = "Gun_LargeRevolver"]/weaponTags</xpath>
 	  <value>
 		<li>Revolver</li>
 	  </value>

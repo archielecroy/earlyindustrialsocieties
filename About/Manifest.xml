@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
     <identifier>D9EarlyIndustrialSocieties</identifier>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <dependencies/>
     <loadAfter>
         <li>Apparello 2</li>
@@ -12,12 +12,13 @@
         <li>FashionRIMsta</li>
         <li>Rimsenal - Enhanced Vanilla Pack</li>
         <li>Medieval Times</li>
-        <li>Apparello 2</li>
-        <li>Apparello 2</li>
-        <li>Medieval Times</li>
+        <li>Giddy-up! Core</li>
+        <li>Horses (1.0)</li>
+        <li>Vanilla Animals Expanded — Livestock</li>
+        <li>AnimalCollabProj</li>
     </loadAfter>
     <suggests/>
     <showCrossPromotions>true</showCrossPromotions>
-    <manifestUri>https://rawgit.com/FluffierThanThou/ModManager/master/About/Manifest.xml</manifestUri>
-    <downloadUri>https://github.com/FluffierThanThou/ModManager/releases/latest</downloadUri>
+    <manifestUri>https://raw.githubusercontent.com/dninemfive/earlyindustrialsocieties/master/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/dninemfive/earlyindustrialsocieties/releases/latest</downloadUri>
 </Manifest>

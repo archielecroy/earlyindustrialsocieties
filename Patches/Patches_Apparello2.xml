@@ -79,5 +79,13 @@
 				</li>	
 			</operations>
 		</match>
+		<nomatch Class="PatchOperationSequence">
+			<li Class="PatchOperationAdd">
+			  <xpath>*/ThingDef[defName = "Duster"]/apparel/tags</xpath>
+			  <value>
+				<li>RebelBasic</li>
+			  </value>
+			</li>
+		</nomatch>
 	</Operation>
 </Patch>

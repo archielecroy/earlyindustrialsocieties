@@ -7,25 +7,25 @@
 		  <success>Always</success>
 		  <operations>
 			<li Class="PatchOperationAdd">
-			  <xpath>*/ThingDef[defName = "PBCoat" or defName = "PBTopHat"]/apparel/tags</xpath>
+			  <xpath>Defs/ThingDef[defName = "PBCoat" or defName = "PBTopHat"]/apparel/tags</xpath>
 			  <value>
 				<li>WesternUrban</li>
 			  </value>
 			</li> 
 			<li Class="PatchOperationAdd">
-			  <xpath>*/ThingDef[defName = "PBCoat"]/apparel/tags</xpath>
+			  <xpath>Defs/ThingDef[defName = "PBCoat"]/apparel/tags</xpath>
 			  <value>
 				<li>SlaverElite</li>
 			  </value>
 			</li> 
 			<li Class="PatchOperationAdd">
-			  <xpath>*/ThingDef[defName = "PBStrawHat"]/apparel/tags</xpath>
+			  <xpath>Defs/ThingDef[defName = "PBStrawHat"]/apparel/tags</xpath>
 			  <value>
 				<li>PoorBasic</li>
 			  </value>
 			</li> 
 			<li Class="PatchOperationAdd">
-			  <xpath>*/ThingDef[defName = "PBTankTop"]/apparel/tags</xpath>
+			  <xpath>Defs/ThingDef[defName = "PBTankTop"]/apparel/tags</xpath>
 			  <value>
 				<li>FarmerBasic</li>
 			  </value>
@@ -40,20 +40,20 @@
 		  <success>Always</success>
 		  <operations>
 			<li Class="PatchOperationAdd">
-			  <xpath>*/ThingDef[defName = "Apparel_FSFurCoat" or defName = "Apparel_FSFurHat"]/apparel/tags</xpath>
+			  <xpath>Defs/ThingDef[defName = "Apparel_FSFurCoat" or defName = "Apparel_FSFurHat"]/apparel/tags</xpath>
 			  <value>
 				<li>Western</li>
 			  </value>
 			</li> 
 			<li Class="PatchOperationAdd">
-			  <xpath>*/ThingDef[defName = "Apparel_FSFineShirt"]/apparel/tags</xpath>
+			  <xpath>Defs/ThingDef[defName = "Apparel_FSFineShirt"]/apparel/tags</xpath>
 			  <value>
 				<li>WesternUrban</li>
 				<li>SlaverElite</li>
 			  </value>
 			</li> 
 			<li Class="PatchOperationAdd">
-			  <xpath>*/ThingDef[defName = "Apparel_FSOveralls"]/apparel/tags</xpath>
+			  <xpath>Defs/ThingDef[defName = "Apparel_FSOveralls"]/apparel/tags</xpath>
 			  <value>
 				<li>FarmerBasic</li>
 			  </value>

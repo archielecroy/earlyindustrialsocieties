@@ -35,7 +35,13 @@
 					<li>Western</li>
 					<li>FarmerBasic</li>
 				  </value>
-				</li>
+				</li>				
+				<li Class="PatchOperationAdd">
+				  <xpath>Defs/PawnKindDef[defName = "D9Sheriff"]/apparelRequired</xpath>
+				  <value>
+					<li>VAE_Apparel_SheriffShirt</li>
+				  </value>
+				</li>				
 			</operations>
 		</match>
 	</Operation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods><li>Giddy-up! Core</li></mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<!-- set the general faction restrictions - restrict Western, Slaver to only horses/donkeys but allow all -->
+				<!-- set specific pawnkind ridership, e.g.
+					Cowboys - 70% mount chance, prefer useful horses (i.e. Brown/Black), fewer Palominos/donkeys, no white horses
+					Sheriff - 10% mount chance, but only white horses
+					Slaver Elite - 80% mount chance, only white/palomino horses
+					cavalry pawnkinds - 100% mount chance, black horses
+					sharecropper - 5% chance, only donkeys
+				-->
+				<li Class="PatchOperationFindMod">
+					<!-- Horses (1.0) -->
+					<!-- nomatch Vanilla Animals Expanded - Livestock -->
+						<!-- nomatch AnimalCollabProj -->
+				</li>
+				<li Class="PatchOperationFindMod">
+					<!-- VAE - L, for Donkeys only -->
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

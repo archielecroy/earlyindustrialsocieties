@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>D9EarlyIndustrialSocieties</identifier>
+    <version>1.0.1</version>
+    <dependencies/>
+    <loadAfter>
+        <li>Apparello 2</li>
+        <li>Weapon Tech</li>
+        <li>Vanilla Apparel Expanded</li>
+        <li>Vanilla Weapons Expanded</li>
+        <li>PB Basic Apparel</li>
+        <li>FashionRIMsta</li>
+        <li>Rimsenal - Enhanced Vanilla Pack</li>
+        <li>Medieval Times</li>
+        <li>Apparello 2</li>
+        <li>Apparello 2</li>
+        <li>Medieval Times</li>
+    </loadAfter>
+    <suggests/>
+    <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri>https://rawgit.com/FluffierThanThou/ModManager/master/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/FluffierThanThou/ModManager/releases/latest</downloadUri>
+</Manifest>

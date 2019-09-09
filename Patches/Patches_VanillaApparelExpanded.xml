@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<Operation Class="PatchOperationFindMod">
-		<mods><li>Apparello 2</li></mods>
+		<mods><li>Vanilla Apparel Expanded</li></mods>
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
 			<operations>

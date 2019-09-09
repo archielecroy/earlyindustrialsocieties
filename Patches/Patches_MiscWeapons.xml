@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods><li>Rimsenal - Enhanced Vanilla Pack</li></mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+				  <xpath>Defs/ThingDef[defName = "Gun_PistolHeavyRevolver"]/weaponTags</xpath>
+				  <value>
+					<li>Revolver</li>
+				  </value>
+				</li>
+				<li Class="PatchOperationAdd">
+				  <xpath>Defs/ThingDef[defName = "Gun_Repeater"]/weaponTags</xpath>
+				  <value>
+					<li>1866</li>
+					<li>LeverGun</li>
+				  </value>
+				</li>
+				<li Class="PatchOperationAdd">
+				  <xpath>Defs/ThingDef[defName = "Gun_AutomaticRifle"]/weaponTags</xpath>
+				  <value>
+					<li>Howell</li>
+					<li>Lewis</li>
+				  </value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

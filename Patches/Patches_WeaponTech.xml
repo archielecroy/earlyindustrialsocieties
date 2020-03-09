@@ -60,9 +60,15 @@
 				  </value>
 				</li>
 				<li Class="PatchOperationAdd">
-				  <xpath>Defs/ThingDef[defName = "Gun_LeverActionRifle" or defName = "Gun_LargeLeverActionRifle" or defName="VintageLeverActionRifle"]/weaponTags</xpath>
+				  <xpath>Defs/ThingDef[defName = "Gun_LeverActionRifle" or defName="VintageLeverActionRifle"]/weaponTags</xpath>
 				  <value>
 					<li>LeverGun</li>
+				  </value>
+				</li>
+				<li Class="PatchOperationAdd">
+				  <xpath>Defs/ThingDef[defName = "Gun_LargeLeverActionRifle"]/weaponTags</xpath>
+				  <value>
+					<li>1895</li>
 				  </value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -77,6 +83,12 @@
 					<li>1866</li>
 				  </value>
 				</li>
+				<!--li Class="PatchOperationAdd">
+				  <xpath>Defs/ThingDef[defName = "1887 Short still not in the game smh"]/weaponTags</xpath>
+				  <value>
+					<li>1887S</li>
+				  </value>
+				</li-->
 				<li Class="PatchOperationAdd">
 				  <xpath>Defs/ThingDef[defName = "Gun_AkimboLeverActionShotguns"]/weaponTags</xpath>
 				  <value>
@@ -87,6 +99,12 @@
 				  <xpath>Defs/ThingDef[defName = "Gun_VintageMachinePistol"]/weaponTags</xpath>
 				  <value>
 					<li>M712</li>
+				  </value>
+				</li>
+				<li Class="PatchOperationAdd">
+				  <xpath>Defs/ThingDef[defName = "Gun_VintageSubmachineGun"]/weaponTags</xpath>
+				  <value>
+					<li>M1928</li>
 				  </value>
 				</li>
 				<li Class="PatchOperationAdd">

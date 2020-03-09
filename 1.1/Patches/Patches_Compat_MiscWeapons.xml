@@ -5,12 +5,12 @@
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
 			<operations>
-				<li Class="PatchOperationAdd">
+				<!--li Class="PatchOperationAdd"> Retextured in 1.1, now looks too modern
 				  <xpath>Defs/ThingDef[defName = "Gun_PistolHeavyRevolver"]/weaponTags</xpath>
 				  <value>
 					<li>Revolver</li>
 				  </value>
-				</li>
+				</li-->
 				<li Class="PatchOperationAdd">
 				  <xpath>Defs/ThingDef[defName = "Gun_Repeater"]/weaponTags</xpath>
 				  <value>
@@ -18,13 +18,13 @@
 					<li>LeverGun</li>
 				  </value>
 				</li>
-				<li Class="PatchOperationAdd">
+				<!--li Class="PatchOperationAdd"> Retextured in 1.1, now looks like a ZB-26 which is a bit too modern for me, thanks
 				  <xpath>Defs/ThingDef[defName = "Gun_AutomaticRifle"]/weaponTags</xpath>
 				  <value>
 					<li>Howell</li>
 					<li>Lewis</li>
 				  </value>
-				</li>
+				</li-->
 			</operations>
 		</match>
 	</Operation>

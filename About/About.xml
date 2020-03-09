@@ -8,8 +8,12 @@
 		<li>1.1</li>
 	</supportedVersions>
 	<modDependencies>
-		<!-- Apparello 2 -->
-		<!-- Weapon Tech -->
+		<li>
+			<packageId>Shinzy.Apparello</packageId>
+			<displayName>Apparello 2</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/728381322</steamWorkshopUrl>
+			<downloadUrl>https://ludeon.com/forums/index.php?topic=5085.0</downloadUrl>
+		</li>
 		<li>
 			<packageId>Janson.WeaponTech11</packageId>
 			<displayName>Weapon Tech</displayName>
@@ -17,13 +21,15 @@
 		</li>
 	</modDependencies>
 	<loadAfter>
+		<li>Shinzy.Apparello</li>
 		<li>Janson.WeaponTech11</li>
-		<!-- VAE -->
-		<!-- VWE -->
+		<li>roolo.giddyupcore</li>
+		<li>VanillaExpanded.VAPPE</li>
+		<li>VanillaExpanded.VWE</li>
 		<!-- Medieval Times (when updated) -->
-		<!-- Rimsenal - Enhanced Vanilla -->
-		<!-- PB Basic Apparel -->
-		<!-- FashionRIMsta -->
+		<li>rimsenal.EVP</li>
+		<!-- PB Basic Apparel (when updated) -->
+		<li>spoonshortage.fashionrimsta</li>
 	</loadAfter>
-	<description>Adds some early industrial societies to flesh out the game: the Western-style "Frontier Associations," confederate "Slaver Aristocracies," and self-explanatory "Bandit Enclaves". Requires Apparello 2 and Weapon Tech.</description>
+	<description>Adds some early industrial societies to flesh out the game: the Western-style "Frontier Associations," despicable "Slaver Aristocracies," and revolutionary "Bandit Enclaves". Requires Apparello 2 and Weapon Tech.</description>
 </ModMetaData>

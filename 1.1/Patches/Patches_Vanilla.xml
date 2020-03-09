@@ -13,15 +13,19 @@
 	  </value>
 	</Operation> 
 	<Operation Class="PatchOperationAdd">
-	  <xpath>Defs/ThingDef[defName = "Gun_PumpShotgun"]/weaponTags</xpath>
+	  <xpath>Defs/ThingDef[defName = "Gun_PumpShotgun"]</xpath>
 	  <value>
-		<li>PumpShotgun</li>
+		<weaponTags>
+			<li>PumpShotgun</li>
+		</weaponTags>
 	  </value>
 	</Operation> 
 	<Operation Class="PatchOperationAdd">
-	  <xpath>Defs/ThingDef[defName = "Gun_BoltActionRifle"]/weaponTags</xpath>
+	  <xpath>Defs/ThingDef[defName = "Gun_BoltActionRifle"]</xpath>
 	  <value>
-		<li>No4</li>
+		<weaponTags>
+			<li>No4</li>
+		</weaponTags>
 	  </value>
 	</Operation> 
 	<Operation Class="PatchOperationAdd">

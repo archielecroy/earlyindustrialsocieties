@@ -14,11 +14,11 @@
 			<steamWorkshopUrl>steam://url/CommunityFilePage/728381322</steamWorkshopUrl>
 			<downloadUrl>https://ludeon.com/forums/index.php?topic=5085.0</downloadUrl>
 		</li>
-		<li>
+		<!--li>
 			<packageId>Janson.WeaponTech11</packageId>
 			<displayName>Weapon Tech</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2005456121</steamWorkshopUrl>
-		</li>
+		</li-->
 	</modDependencies>
 	<loadAfter>
 		<li>Shinzy.Apparello</li>

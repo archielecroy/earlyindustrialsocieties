@@ -97,8 +97,8 @@
 		  <li>Western</li>
 		  <li>Bandana</li>
 		</apparelTags>
-  </PawnKindDef>
-	<PawnKindDef ParentName="D9BanditBase">
+  </PawnKindDef>  
+  <PawnKindDef ParentName="D9BanditBase">
 		<defName>D9Raider</defName>
 		<label>raider</label>
 		<race>Human</race>

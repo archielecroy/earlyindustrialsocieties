@@ -2,8 +2,28 @@
 <ModMetaData>
 	<name>Early Industrial Societies</name>
 	<author>dninemfive</author>
+	<packageId>dninemfive.earlyindustrialsocieties</packageId>
 	<supportedVersions>
 		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
+	<modDependencies>
+		<!-- Apparello 2 -->
+		<!-- Weapon Tech -->
+		<li>
+			<packageId>Janson.WeaponTech11</packageId>
+			<displayName>Weapon Tech</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2005456121</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Janson.WeaponTech11</li>
+		<!-- VAE -->
+		<!-- VWE -->
+		<!-- Medieval Times (when updated) -->
+		<!-- Rimsenal - Enhanced Vanilla -->
+		<!-- PB Basic Apparel -->
+		<!-- FashionRIMsta -->
+	</loadAfter>
 	<description>Adds some early industrial societies to flesh out the game: the Western-style "Frontier Associations," confederate "Slaver Aristocracies," and self-explanatory "Bandit Enclaves". Requires Apparello 2 and Weapon Tech.</description>
 </ModMetaData>

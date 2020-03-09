@@ -215,7 +215,7 @@
 	</PawnKindDef>
 	<PawnKindDef ParentName="D9WesternFighterBase">
 		<defName>D9Cowboy</defName>
-		<label>cowperson</label>
+		<label>cowpoke</label>
 		<labelMale>cowboy</labelMale>
 		<labelFemale>cowgirl</labelFemale>
 		<labelPlural>cowpeople</labelPlural>

@@ -80,12 +80,14 @@
 			</operations>
 		</match>
 		<nomatch Class="PatchOperationSequence">
-			<li Class="PatchOperationAdd">
-			  <xpath>Defs/ThingDef[defName = "Duster"]/apparel/tags</xpath>
-			  <value>
-				<li>RebelBasic</li>
-			  </value>
-			</li>
+			<operations>
+				<li Class="PatchOperationAdd">
+				  <xpath>Defs/ThingDef[defName = "Duster"]/apparel/tags</xpath>
+				  <value>
+					<li>RebelBasic</li>
+				  </value>
+				</li>
+			</operations>
 		</nomatch>
 	</Operation>
 </Patch>

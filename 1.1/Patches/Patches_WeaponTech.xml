@@ -132,7 +132,7 @@
 			<operations>
 				<!-- fallbacks for weapons missing with only Vanilla/VWE -->
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="Weapon_GrenadeMolotov"]</xpath>
+					<xpath>Defs/ThingDef[defName="Weapon_GrenadeMolotov"]/weaponTags</xpath>
 					<value>
 						<li>NadeLauncher</li>
 					</value>

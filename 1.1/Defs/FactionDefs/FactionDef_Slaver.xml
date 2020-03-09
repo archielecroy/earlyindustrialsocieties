@@ -11,7 +11,7 @@
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>president</leaderTitle>
-    <expandingIconTexture>World/STown</expandingIconTexture>
+    <factionIconPath>World/STown</factionIconPath>
     <colorSpectrum>
       <li>(1.0, 1.0, 1.0)</li>
       <li>(0.9, 0.9, 0.9)</li>
@@ -128,6 +128,6 @@
 		</options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
   </FactionDef>
 </Defs>

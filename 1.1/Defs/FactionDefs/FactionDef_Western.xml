@@ -11,7 +11,7 @@
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>marshall</leaderTitle>
-    <expandingIconTexture>World/WTown</expandingIconTexture>
+    <factionIconPath>World/WTown</factionIconPath>
     <colorSpectrum>
       <li>(0.64, 0.42, 0.36)</li>
       <li>(0.47, 0.5, 0.91)</li>
@@ -130,6 +130,6 @@
 		</options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
   </FactionDef>
 </Defs>

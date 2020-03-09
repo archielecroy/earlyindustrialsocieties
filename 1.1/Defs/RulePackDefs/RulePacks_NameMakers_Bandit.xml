@@ -25,7 +25,7 @@
 	  </rulesRaw>
     </rulePack>
   </RulePackDef>
-  <RulePackDef>
+  <!--RulePackDef>
     <defName>NamerFactionBaseWesternD9</defName>
     <rulePack>
       <rulesStrings>
@@ -70,5 +70,5 @@
         </li>
       </rulesRaw>
     </rulePack>
-  </RulePackDef>
+  </RulePackDef-->
 </Defs>

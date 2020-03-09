@@ -4,16 +4,16 @@
 	  <success>Always</success>
 	  <operations>
 		<li Class="PatchOperationTest">
-		  <xpath>*/ThingDef[defName = "MedTimes_Ranged_Musket"]</xpath>
+		  <xpath>/Defs/ThingDef[defName = "MedTimes_Ranged_Musket"]</xpath>
 		</li>
 		<li Class="PatchOperationAdd">
-		  <xpath>*/ThingDef[defName = "MedTimes_Ranged_Musket"]/weaponTags</xpath>
+		  <xpath>/Defs/ThingDef[defName = "MedTimes_Ranged_Musket"]/weaponTags</xpath>
 		  <value>
 			<li>Musket</li>
 		  </value>
 		</li>
 		<li Class="PatchOperationAdd">
-		  <xpath>*/ThingDef[defName = "D9SlaverRegular"]/weaponTags</xpath>
+		  <xpath>/Defs/ThingDef[defName = "D9SlaverRegular"]/weaponTags</xpath>
 		  <value>
 			<li>Musket</li>
 		  </value>
@@ -24,10 +24,10 @@
 	  <success>Always</success>
 	  <operations>
 		<li Class="PatchOperationTest">
-		  <xpath>*/ThingDef[defName = "MedTimes_AppBody_Trousers"]</xpath>
+		  <xpath>/Defs/ThingDef[defName = "MedTimes_AppBody_Trousers"]</xpath>
 		</li>
 		<li Class="PatchOperationAdd">
-		  <xpath>*/ThingDef[defName = "MedTimes_AppBody_Trousers" or defName = "MedTimes_AppBody_TrousersStriped"]/apparel/tags</xpath>
+		  <xpath>/Defs/ThingDef[defName = "MedTimes_AppBody_Trousers" or defName = "MedTimes_AppBody_TrousersStriped"]/apparel/tags</xpath>
 		  <value>
 			<li>PoorBasic</li>
 		  </value>

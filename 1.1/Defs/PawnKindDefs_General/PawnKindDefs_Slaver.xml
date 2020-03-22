@@ -77,8 +77,8 @@
     </gearHealthRange>
     <itemQuality>Good</itemQuality>
     <weaponMoney>
-      <min>205</min>
-      <max>500</max>
+      <min>245</min>
+      <max>750</max>
     </weaponMoney>
     <weaponTags>
       <li>Revolver</li>

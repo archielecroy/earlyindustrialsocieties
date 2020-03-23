@@ -139,14 +139,13 @@
 	  <li>WesternUrban</li>
     </apparelTags>
     <weaponTags>
-      <li>1911</li>
       <li>Revolver</li>
 	  <li>LeverGun</li>
 	  <li>PumpShotgun</li>
 	  <li>SxS</li>
 	  <li>1887</li>
 	  <li>1887S</li>
-	  <li>M712</li>
+	  <li>BigIron</li>
     </weaponTags>    
     <invNutrition>2.55</invNutrition>
     <inventoryOptions>

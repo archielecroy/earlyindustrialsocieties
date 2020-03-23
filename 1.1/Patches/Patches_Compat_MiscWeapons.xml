@@ -28,4 +28,18 @@
 			</operations>
 		</match>
 	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods><li>Combat Enthusiast's Collection</li></mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+				  <xpath>Defs/ThingDef[defName = "CEC_BigIron"]/weaponTags</xpath>
+				  <value>
+					<li>BigIron</li>
+				  </value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
 </Patch>

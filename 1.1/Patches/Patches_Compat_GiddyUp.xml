@@ -82,7 +82,8 @@
 				<!-- Bandidos -->
 				<!-- Add new Vaquero: 100% chance to be mounted, 85% horses, 15% donkeys -->
 				<li Class="PatchOperationInsert">
-					<value>
+					<xpath>/Defs/PawnKindDef[defName="D9Desperado"]</xpath>
+					<value>						
 						<PawnKindDef ParentName="D9BanditBase">
 							<defName>D9Vaquero</defName>
 							<label>vaquero</label>
@@ -115,7 +116,7 @@
 							</modExtensions>
 					  </PawnKindDef>
 					</value>
-				<li>
+				</li>
 				<!-- All other PawnKinds in here: no mount chance, but if they somehow get one it's a horse -->
 				<li Class="PatchOperationAddModExtension">
 					<xpath>/Defs/PawnKindDef[defName="D9WShotgun" or defName="D9WSniper" or defName="D9WAuto" or defName="D9FarmerS" or defName="D9SlaverRegular" or defName="D9SlaverGrenadier" or defName="D9Villista" or defName="D9Desperado" or defName="D9Gunslinger" or defName="D9Raider"]</xpath>

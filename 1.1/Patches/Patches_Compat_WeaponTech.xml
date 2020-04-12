@@ -143,11 +143,15 @@
 					<li>Revolver</li>
 				  </value>
 				</li>
-				<li Class="PatchOperationAdd">
-				  <xpath>Defs/ThingDef[defName = "Gun_BoltActionRifle"]/weaponTags</xpath>
-				  <value>
-					<li>MartiniS</li>
-				  </value>
+				<li Class="PatchOperationFindMod">
+					<mods><li>Vanilla Factions Expanded - Settlers</li></mods>
+					<!-- Only apply this if VFE - Settlers *isn't* found. The Hunting Rifle from that mod will be given this tag regardless of whether Weapon Tech is installed. -->
+					<nomatch Class="PatchOperationAdd">
+					  <xpath>Defs/ThingDef[defName = "Gun_BoltActionRifle"]/weaponTags</xpath>
+					  <value>
+						<li>MartiniS</li>
+					  </value>
+					</nomatch>
 				</li>
 				<li Class="PatchOperationAdd">
 				  <xpath>Defs/ThingDef[defName = "Gun_PumpShotgun"]/weaponTags</xpath>

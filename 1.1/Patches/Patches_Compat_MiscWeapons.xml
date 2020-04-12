@@ -34,7 +34,7 @@
 			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationAdd">
-				  <xpath>Defs/ThingDef[defName = "CEC_BigIron"]/weaponTags</xpath>
+				  <xpath>/Defs/ThingDef[defName = "CEC_BigIron"]/weaponTags</xpath>
 				  <value>
 					<li>BigIron</li>
 				  </value>

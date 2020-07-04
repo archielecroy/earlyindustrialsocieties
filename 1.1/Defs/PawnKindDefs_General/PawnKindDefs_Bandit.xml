@@ -4,10 +4,7 @@
     <defaultFactionType>D9Bandit</defaultFactionType>
     <chemicalAddictionChance>0.03</chemicalAddictionChance>
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
-    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-    <backstoryCategories>
-		<li>Raider</li>
-	</backstoryCategories>    
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>  
 	<itemQuality>Normal</itemQuality>
     <isFighter>true</isFighter>
 	<trader>false</trader>
@@ -16,8 +13,8 @@
       <max>2.0</max>
     </gearHealthRange>
     <apparelMoney>
-      <min>300</min>
-      <max>900</max>
+      <min>600</min>
+      <max>1200</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
     <weaponMoney>

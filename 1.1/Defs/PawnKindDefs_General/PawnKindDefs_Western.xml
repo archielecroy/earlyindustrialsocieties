@@ -4,10 +4,7 @@
     <defaultFactionType>D9Western</defaultFactionType>
     <chemicalAddictionChance>0.03</chemicalAddictionChance>
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
-    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-    <backstoryCategories>
-		<li>Civil</li>
-	</backstoryCategories>    
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>  
   </PawnKindDef>
   <PawnKindDef ParentName="D9WesternBase">
     <defName>D9Townsperson</defName>

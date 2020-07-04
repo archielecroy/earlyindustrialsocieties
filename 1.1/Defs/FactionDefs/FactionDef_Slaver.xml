@@ -20,16 +20,27 @@
       <min>-70</min>
       <max>0</max>
     </startingGoodwill>
-		<factionNameMaker>NamerFactionSlaverD9</factionNameMaker>
-		<settlementNameMaker>NamerFactionBaseSlaverD9</settlementNameMaker>
-		<techLevel>Industrial</techLevel>
-		<backstoryCategories>
-			<li>Civil</li>
-		</backstoryCategories>
-		<geneticVariance>0.3</geneticVariance>
-		<hairTags>
-			<li>Rural</li>
-		</hairTags>
+	<factionNameMaker>NamerFactionSlaverD9</factionNameMaker>
+	<settlementNameMaker>NamerFactionBaseSlaverD9</settlementNameMaker>
+	<techLevel>Industrial</techLevel>
+	<backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+        <commonality>0.9</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Pirate</li>
+        </categories>
+        <commonality>0.1</commonality>
+      </li>
+    </backstoryFilters>
+	<geneticVariance>0.3</geneticVariance>
+	<hairTags>
+		<li>Rural</li>
+	</hairTags>
     <naturalColonyGoodwill>
       <min>-80</min>
       <max>-60</max>

@@ -5,13 +5,7 @@
     <chemicalAddictionChance>0.025</chemicalAddictionChance>
     <baseRecruitDifficulty>0.70</baseRecruitDifficulty>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-    <backstoryCategories>
-		<li>Civil</li>
-	</backstoryCategories>
 	<race>Human</race>
-    <!--apparelTags> //set individually
-      <li>Slaver</li>
-    </apparelTags-->
   </PawnKindDef>
   <PawnKindDef ParentName="D9SlaverBase">
     <defName>D9FarmerS</defName>
@@ -21,6 +15,13 @@
     <combatPower>30</combatPower>
     <itemQuality>Awful</itemQuality>
     <isFighter>false</isFighter>
+	<backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
     <gearHealthRange>
       <min>0.2</min>
       <max>1.0</max>
@@ -70,6 +71,26 @@
     <combatPower>40</combatPower>
     <factionLeader>true</factionLeader>
     <minGenerationAge>25</minGenerationAge>
+	<backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+        <commonality>0.6</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Pirate</li>
+        </categories>
+        <commonality>0.25</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+        <commonality>0.15</commonality>
+	  </li>
+    </backstoryFiltersOverride>
     <isFighter>false</isFighter>
     <gearHealthRange>
       <min>1</min>
@@ -158,6 +179,20 @@
       <max>900</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+	<backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+        <commonality>0.4</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Pirate</li>
+        </categories>
+        <commonality>0.6</commonality>
+      </li>
+    </backstoryFiltersOverride>
     <weaponMoney>
       <min>345</min>
       <max>750</max>
@@ -215,6 +250,20 @@
       <max>750</max>
     </weaponMoney>     
     <invNutrition>2.55</invNutrition>
+	<backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+        <commonality>0.6</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Pirate</li>
+        </categories>
+        <commonality>0.4</commonality>
+      </li>
+    </backstoryFiltersOverride>
     <inventoryOptions>
       <skipChance>0.75</skipChance>
       <subOptionsChooseOne>

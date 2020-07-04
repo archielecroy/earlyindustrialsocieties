@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <FactionDef>
-		<defName>D9Western</defName>
-		<label>frontier association</label>
+	<defName>D9Western</defName>
+	<label>frontier association</label>
     <description>A group of people on the fringes of society, bound together by simple matters of survival and trade.\n\nThey are not unkind to newly-established colonies like their own towns.</description>
 	<pawnsPlural>cowboys</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -20,16 +20,33 @@
       <min>-30</min>
       <max>30</max>
     </startingGoodwill>
-		<factionNameMaker>NamerFactionWesternD9</factionNameMaker>
-		<settlementNameMaker>NamerFactionBaseWesternD9</settlementNameMaker>
-		<techLevel>Industrial</techLevel>
-		<backstoryCategories>
-			<li>Civil</li>
-		</backstoryCategories>
-		<geneticVariance>0.7</geneticVariance>
-		<hairTags>
-			<li>Rural</li>
-		</hairTags>
+	<factionNameMaker>NamerFactionWesternD9</factionNameMaker>
+	<settlementNameMaker>NamerFactionBaseWesternD9</settlementNameMaker>
+	<techLevel>Industrial</techLevel>
+	<backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+        <commonality>0.91</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Tribal</li>
+        </categories>
+        <commonality>0.03</commonality>
+      </li>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+        <commonality>0.06</commonality>
+      </li>
+    </backstoryFilters>
+	<geneticVariance>0.7</geneticVariance>
+	<hairTags>
+		<li>Rural</li>
+	</hairTags>
     <naturalColonyGoodwill>
       <min>-15</min>
       <max>15</max>

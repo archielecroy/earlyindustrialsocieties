@@ -27,7 +27,13 @@
 			<li>No4</li>
 		</weaponTags>
 	  </value>
-	</Operation> 	
+	</Operation> 
+	<Operation Class="PatchOperationAdd">
+	  <xpath>Defs/ThingDef[defName = "Gun_SniperRifle"]/weaponTags</xpath>
+	  <value>
+		<li>No4S</li>
+	  </value>
+	</Operation> 
 	<Operation Class="PatchOperationAdd">
 	  <xpath>Defs/ThingDef[defName = "Weapon_GrenadeMolotov"]/weaponTags</xpath>
 	  <value>

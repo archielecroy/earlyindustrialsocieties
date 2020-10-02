@@ -17,7 +17,7 @@
       <li>(0.47, 0.5, 0.91)</li>
     </colorSpectrum>
     <startingGoodwill>
-      <min>-30</min>
+      <min>-5</min>
       <max>30</max>
     </startingGoodwill>
 	<factionNameMaker>NamerFactionWesternD9</factionNameMaker>

@@ -166,6 +166,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+	<factionLeader>true</factionLeader>
   </PawnKindDef>
   <PawnKindDef Name="D9WesternFighterBase" ParentName="D9WesternBase" Abstract="True">
     <itemQuality>Normal</itemQuality>

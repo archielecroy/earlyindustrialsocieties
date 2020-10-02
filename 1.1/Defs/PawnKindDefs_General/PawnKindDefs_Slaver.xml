@@ -118,6 +118,7 @@
     <apparelAllowHeadgearChance>0.1</apparelAllowHeadgearChance>
 	<invNutrition>3</invNutrition>
 	<apparelColor>(250,250,250)</apparelColor>
+	<factionLeader>true</factionLeader>
   </PawnKindDef>
   <PawnKindDef ParentName="D9SlaverBase">
     <defName>D9STrader</defName>

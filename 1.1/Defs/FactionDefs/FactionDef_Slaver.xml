@@ -45,6 +45,9 @@
       <min>-80</min>
       <max>-60</max>
     </naturalColonyGoodwill>
+	<fixedLeaderKinds>
+		<li>D9SElite</li>
+	</fixedLeaderKinds>
     <caravanTraderKinds>
       <li>Caravan_D9Slaver_Slaver</li>
 	  <li>Caravan_D9Slaver_Textiles</li>

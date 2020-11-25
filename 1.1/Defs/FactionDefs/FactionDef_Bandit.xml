@@ -63,9 +63,9 @@
         <kindDef>Combat</kindDef>
 		<commonality>25</commonality>
         <options>
-			<D9Villista>5</D9Villista>
-			<D9Desperado>10</D9Desperado>
-			<D9Raider>65</D9Raider>
+			<D9Villista>10</D9Villista>
+			<D9Desperado>20</D9Desperado>
+			<D9Raider>60</D9Raider>
 		</options>
       </li>
 	  <li>

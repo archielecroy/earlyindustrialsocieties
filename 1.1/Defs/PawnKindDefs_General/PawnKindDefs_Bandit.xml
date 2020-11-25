@@ -71,7 +71,7 @@
   <PawnKindDef ParentName="D9BanditBase">
 	<defName>D9Desperado</defName>
 	<label>desperado</label>
-	<labelPlural>desperadoes</labelPlural>
+	<labelPlural>desperados</labelPlural>
 	<race>Human</race>
 	<combatPower>42</combatPower>
 	<weaponTags>
